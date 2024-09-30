@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de clics multijoueur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jeu de clics multijoueur</h1>
+    
+    <div id="playerInfo"></div>
+    <div id="gameStatus">En attente d'un autre joueur...</div>
+
+    <button id="clickButton" disabled>Cliquez ici !</button>
+
+    <div id="scores">
+        <p id="player1Clicks">Joueur 1: 0 clics</p>
+        <p id="player2Clicks">Joueur 2: 0 clics</p>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

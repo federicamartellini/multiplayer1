@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #1c8482;
+  padding: 50px;
+}
+
+button {
+  padding: 20px;
+  font-size: 18px;
+  
+  margin: 20px;
+}
+
+#scores {
+  margin-top: 20px;
+}
+
+p {
+  font-size: 24px;
+}
+
+ul {
+  list-style-position: inside; 
+  padding-left: 0;
+  text-align: center; 
+}
+
+
+li {
+  margin: 10px 0; 
+}
